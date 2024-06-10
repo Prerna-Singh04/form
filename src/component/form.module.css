@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.formTitle{
+    margin: 50px;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.errorMsg{
+    font-size: 15px;
+    text-align: center;
+    color: rgb(197, 19, 19);
+}
+
+.userForm{
+    padding: 50px;
+    margin: auto;
+    margin-bottom: 50px;
+    width: 47rem;
+    background: #dce2e8b3;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.container{
+    margin: 10px 50px 50px;
+}
+
+.userName{
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.formLabel{
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.firstName, .lastName{
+    width: 100%;
+}
+
+.impField{
+    color: red;
+}
+
+.inputField{
+    width: 100%;
+    height: 23px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: transparent;
+    border-bottom: 1px solid rgb(192, 187, 187);
+}
+
+.genderDropdown{
+    width: 100%;
+    border: none;
+    padding: 10px;
+    outline: none;
+    cursor: pointer;
+    background: transparent;
+    border-bottom: 1px solid rgb(192, 187, 187);
+}
+
+.submitBtnContainer{
+    text-align: center;
+}
+
+.submitBtn{
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background: #1f883d;
+}
+
+::placeholder {
+    display: none;
+}
+
+.inputField:-webkit-autofill,
+.inputField:-webkit-autofill:hover,
+.inputField:-webkit-autofill:focus,
+.inputField:-webkit-autofill:active {
+    background: #dce2e8b3 !important;
+}
